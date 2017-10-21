@@ -18,6 +18,7 @@
 		7D036ACF1F9ABE950041E39E /* ViewControllerEventos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D036ACE1F9ABE950041E39E /* ViewControllerEventos.swift */; };
 		7D036AD31F9ABF0D0041E39E /* ViewControllerAlbumEventos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D036AD21F9ABF0D0041E39E /* ViewControllerAlbumEventos.swift */; };
 		7D036AD71F9AC6100041E39E /* ViewControllerFotosPersonas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D036AD61F9AC6100041E39E /* ViewControllerFotosPersonas.swift */; };
+		7D036AD91F9ADA2B0041E39E /* ViewControllerDetallesFoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D036AD81F9ADA2B0041E39E /* ViewControllerDetallesFoto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		7D036ACE1F9ABE950041E39E /* ViewControllerEventos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEventos.swift; sourceTree = "<group>"; };
 		7D036AD21F9ABF0D0041E39E /* ViewControllerAlbumEventos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAlbumEventos.swift; sourceTree = "<group>"; };
 		7D036AD61F9AC6100041E39E /* ViewControllerFotosPersonas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFotosPersonas.swift; sourceTree = "<group>"; };
+		7D036AD81F9ADA2B0041E39E /* ViewControllerDetallesFoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetallesFoto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,6 @@
 		7D036AAA1F9AA62E0041E39E = {
 			isa = PBXGroup;
 			children = (
-				7D036AD61F9AC6100041E39E /* ViewControllerFotosPersonas.swift */,
 				7D036AB51F9AA62E0041E39E /* ProyectoFinal */,
 				7D036AB41F9AA62E0041E39E /* Products */,
 			);
@@ -68,13 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				7D036ABA1F9AA62E0041E39E /* Main.storyboard */,
+				7D036AD81F9ADA2B0041E39E /* ViewControllerDetallesFoto.swift */,
+				7D036AD61F9AC6100041E39E /* ViewControllerFotosPersonas.swift */,
 				7D036AD21F9ABF0D0041E39E /* ViewControllerAlbumEventos.swift */,
 				7D036ACE1F9ABE950041E39E /* ViewControllerEventos.swift */,
 				7D036ACC1F9ABE670041E39E /* ViewControllerPersonas.swift */,
 				7D036ACA1F9AAC960041E39E /* ViewControllerEditarInformacion.swift */,
-				7D036AB61F9AA62E0041E39E /* AppDelegate.swift */,
 				7D036AB81F9AA62E0041E39E /* ViewController.swift */,
 				7D036AC81F9AAB6D0041E39E /* ViewControllerVerInformacion.swift */,
+				7D036AB61F9AA62E0041E39E /* AppDelegate.swift */,
 				7D036ABD1F9AA62E0041E39E /* Assets.xcassets */,
 				7D036ABF1F9AA62E0041E39E /* LaunchScreen.storyboard */,
 				7D036AC21F9AA62E0041E39E /* Info.plist */,
@@ -157,6 +160,7 @@
 				7D036AB91F9AA62E0041E39E /* ViewController.swift in Sources */,
 				7D036ACD1F9ABE670041E39E /* ViewControllerPersonas.swift in Sources */,
 				7D036ACB1F9AAC960041E39E /* ViewControllerEditarInformacion.swift in Sources */,
+				7D036AD91F9ADA2B0041E39E /* ViewControllerDetallesFoto.swift in Sources */,
 				7D036AD71F9AC6100041E39E /* ViewControllerFotosPersonas.swift in Sources */,
 				7D036AB71F9AA62E0041E39E /* AppDelegate.swift in Sources */,
 				7D036AC91F9AAB6D0041E39E /* ViewControllerVerInformacion.swift in Sources */,

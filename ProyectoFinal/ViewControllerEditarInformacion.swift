@@ -8,12 +8,50 @@
 
 import UIKit
 
-class ViewControllerEditarInformacion: UIViewController {
+protocol ProtocoloeditarInformacion {
+    func editarInfo(nombre: String, nacimiento: String, comentarios: String) -> Void
+}
 
+class ViewControllerEditarInformacion: UIViewController {
+    
+    @IBOutlet weak var tfNombre: UITextField!
+    @IBOutlet weak var datePicker: UIDatePicker!
+    @IBOutlet weak var tfComentarios: UITextView!
+    var prueba : Int!
+    
+    var fecha = Date()
+    var sFecha : String!
+    
+    let formateador = DateFormatter()
+    
+    var delegado : ProtocoloeditarInformacion!
+    
+    
+    @IBAction func btGuardar(_ sender: UIButton) {
+       
+        fecha = datePicker.date
+        formateador.dateFormat = "dd ' de ' MM ' de ' yyyy"
+        sFecha = formateador.string(from:fecha)
+        print(sFecha)
+        let nom = tfNombre.text!
+        let com = tfComentarios.text!
+        var fec: String!
+        fec = sFecha
+        
+        if nom != " " && com != "" && fec != ""{
+            delegado.editarInfo(nombre: nom, nacimiento: fec, comentarios: com)
+             navigationController!.popViewController(animated: true)
+        }
+        
+       
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        
+        print(prueba)
+        
     }
 
     override func didReceiveMemoryWarning() {
